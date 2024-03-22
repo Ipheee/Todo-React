@@ -1,0 +1,35 @@
+.todoWrapper {
+    background-color: #1995ad;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+
+}
+
+.todoWrapper section.todoCard {
+    width: 540px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.todoWrapper section h1 {
+    text-align: center;
+}
+
+.todoItemsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    color: #555;
+}
